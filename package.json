@@ -1,0 +1,16 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "author": "thomas janhonen",
+  "scripts": {
+    "serve": "node web.js",
+    "build": "sass reveal/css/theme/source/presentation.scss reveal/css/theme/presentation.css"
+  },
+  "dependencies": {
+    "express": "~4.17.1",
+    "basic-auth": "~2.0.1"
+  },
+  "devDependencies": {
+    "sass": "~1.23.0"
+  }
+}

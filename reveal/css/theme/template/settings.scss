@@ -1,0 +1,41 @@
+// Base
+$backgroundPre: rgba(21, 35, 71, 1.00);
+
+// Primary
+$mainFont: 'Source Sans Pro', sans-serif;
+$mainFontSize: 27px;
+$mainColor: rgba(255, 255, 255, 1.00);
+
+$blockMargin: 17px;
+$headingMargin: 0 0 $blockMargin 0;
+
+$headingFont: 'Source Sans Pro', sans-serif;
+$codeFont: 'Source Code Pro', monospace;
+
+$headingColor: rgba(255, 249, 35, 1.00);
+$headingLineHeight: 1.3;
+$headingLetterSpacing: normal;
+
+$headingTextTransform: uppercase;
+
+$headingFontWeight: 700;
+
+$headingTextShadow: none;
+$heading1TextShadow: $headingTextShadow;
+
+$heading1Size: 3.00em;
+$heading3Size: 1.50em;
+$heading5Size: 1.00em;
+
+// Link
+$linkColor: rgba(255, 0, 170, 1.00);
+$linkColorHover: lighten( $linkColor, 30% );
+
+// Text
+$selectionBackgroundColor: rgba(57, 73, 111, 1.00);
+$selectionColor: rgba(57, 73, 111, 1.00);
+
+// Generates the presentation
+@mixin bodyBackground() {
+	background: $backgroundPre;
+}

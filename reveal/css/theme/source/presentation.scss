@@ -1,0 +1,105 @@
+@import "../template/mixins";
+@import "../template/settings";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300,700&display=swap);
+
+//override
+$frantic: rgba(22, 45, 255, 1.00);
+
+
+
+.upc {
+  text-transform: uppercase !important;
+}
+
+
+
+.reveal section img {
+  margin: 0 !important;
+  padding: 0;
+
+  border: none !important;
+
+  width: auto;
+  height: 330px;
+
+  box-shadow: none !important;
+
+  background: none !important;
+}
+
+.reveal section img.main {
+  margin: auto !important;
+
+  width: 930px !important;
+  height: auto !important;
+}
+
+
+
+.file {
+  margin: 0 auto !important;
+  padding: 0;
+
+  width: 90%;
+
+  font-size: 15px !important;
+  line-height: 1 !important;
+
+  text-align: left;
+}
+
+
+
+.relax {
+  p {
+    margin: 0 0 30px 0;
+    padding: 15px;
+
+    font-size: 31px; font-weight: 700;
+    color: rgba(55, 55, 55, 1.00);
+
+    background: rgba(240, 218, 50, .75);
+  }
+
+  .audio_ {
+    display: none !important;
+  }
+}
+
+
+
+.person-container {
+  display: flex !important;
+  flex-flow: column nowrap;
+
+  .person_ {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .person_alternate_ {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .person {
+    margin: 0 30px 0 !important;
+    padding: 0;
+
+    width: 225px;
+    height: 225px;
+  }
+
+  p { display: inline-flex; align-self: center; }
+
+  pre { align-self: center; }
+}
+
+@import "../template/theme";
+
+.reveal .progress span {
+  background: rgba(255, 249, 35, 1.00);
+}

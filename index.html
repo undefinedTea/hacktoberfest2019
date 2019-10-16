@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>hacktober fest 2019</title>
+
+    <meta name="description" content="made with love">
+    <meta name="author" content="thomas janhonen">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="reveal/css/reveal.css">
+    <link rel="stylesheet" href="reveal/css/theme/presentation.css" id="theme">
+
+    <link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+    <script>
+    window.twttr = !function(document, script, id) {
+      let js, fjs = document.getElementsByTagName(script)[0]
+
+      t = window.twttr || {}
+      if (document.getElementById(id)) return t
+
+      js = document.createElement(script)
+      js.id = id
+      js.src = "https://platform.twitter.com/widgets.js"
+
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function(f) {
+        t._e.push(f)
+      }
+
+      return t
+    }(document, "script", "twitter-wjs")
+    </script>
+
+    <!-- Print and PDF export -->
+    <script>
+    let link = document.createElement( 'link' )
+    link.rel = 'stylesheet'
+    link.type = 'text/css'
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css'
+    document.getElementsByTagName( 'head' )[0].appendChild( link )
+    </script>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-background="reveal/image/main.png" data-background-position="bottom">
+        </section>
+
+        <section data-background="reveal/image/base.png" data-background-position="bottom">
+          <div class="person-container">
+            <div class="person_">
+              <img src="reveal/image/me.png" alt="thomas janhonen" title="thomas janhonen" class="person">
+              <pre><code class="hljs" data-line-numbers>const name = 'Thomas Janhonen'
+let information:Object = {
+  position: 'founder, engineer, CTO',
+  hasAbilities: [
+    'JavaScript', 'Ruby', 'HTML', 'Linux (ಠ_ಠ)', 'Jekyll', 'docker', 'go',
+    'network', 'architecture'
+  ],
+
+  twitter: '@thomas_janhonen'
+}
+              </code></pre>
+            </div>
+            <div class="person_alternate_">
+              <img src="reveal/image/ville.png" alt="ville halminen" title="ville halminen" class="person">
+              <pre><code class="hljs" data-line-numbers>const name = 'Ville Halminen'
+let information:Object = {
+  position: 'founder, developer',
+  hasAbilities: [
+    'JavaScript', 'React', 'Gatsby', 'Contentful'
+  ],
+
+  twitter: '@villehalminen'
+}
+              </code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+          <script type="text/template">
+            # today
+            - basic
+            - about hacktober fest
+            - oss: where to begin
+
+            Note:
+            mention some stuff
+          </script>
+        </section>
+
+        <section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <script type="text/template">
+              # basic
+              - follow the code of conduct
+              - food and drink is available
+              - internet connection: tentimes / #pandabear2019
+            </script>
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              # about hacktober fest
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/map.png" data-background-position="bottom">
+            <textarea data-template>
+              ##### Participants from 151 countries<!-- .element: class="fragment" -->
+              ##### ~412.500 Pull Requests during October<!-- .element: class="fragment" -->
+              ##### 277 events in 50 countries<!-- .element: class="fragment" -->
+
+              ##### ~47.000 earned a shirt<!-- .element: class="fragment" -->
+
+              Note:
+              built with //
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              > This is all about encouraging meaningful contributions to the open source ecosystem — for beginners and veterans alike.
+
+              Note:
+              built with //
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              ### rules
+              - Register at [hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com)
+              - To win a shirt, make at least four pull requests to any repository hosted on GitHub between October 1-31
+              - #hacktoberfest in SoMe
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              ### values
+              - Everyone is welcome
+              This event is for everyone, regardless of race, gender, relligion, creed or sexual orientation and regardless of age or experience.
+              - Quality is key
+              One PR to correct a typo is fine, but 5 to remove whitespace are not.
+              - Long-term impact
+              What you contribute to Open Source has an impact beyond you.
+            </textarea>
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              # oss: where to begin
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              ### contribute
+              - [opensource.guide](https://opensource.guide) has great information
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              ### make something
+              - again [opensource.guide](https://opensource.guide) has great information
+              - choose a license
+              - invest time in a readme and wiki
+              - cover contributing guidelines as well as a code of conduct
+              - consult this [list](https://opensource.guide/starting-a-project/#your-pre-launch-checklist) when you are ready to say 'hello world'
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              ### how to find an issue
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              ### anatomy of a Pull Request
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
+              ### the community
+            </textarea>
+          </section>
+        </section>
+
+        <section class="relax" data-markdown data-background="reveal/image/relax.png" data-background-position="bottom">
+          <textarea data-template>
+            <!-- rip headphone people -->
+            <audio id="forrest" data-autoplay src="reveal/audio/forrest.mp3"></audio><!-- .element: class="audio_" -->
+            <audio data-autoplay src="reveal/audio/water.mp3"></audio><!-- .element: class="audio_" -->
+
+            those who say it can not be done, should not interrupt those doing it.
+            <!-- .element: class="fragment" -->
+
+            Note:
+            inspiration
+          </textarea>
+        </section>
+
+        <!-- <section data-markdown data-background="reveal/image/atom-bare.png" data-background-position="bottom">
+          <script type="text/template">
+            # \,,/(^_^)\,,/
+          </script>
+        </section> -->
+
+        <section data-markdown data-background="reveal/image/atom-bare.png" data-background-position="bottom">
+          <textarea data-template>
+            # thank you \o/
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="reveal/js/reveal.js"></script>
+
+    <script>
+    Reveal.initialize({
+      controls: false,
+
+      progress: true,
+      history: true,
+
+      margin: 0.1,
+
+      //width: '1200',
+      //height: '675',
+      minScale: 0.35, maxScale: 1,
+
+      transition: 'slide',
+
+      dependencies: [
+        { src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+        { src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+        { src: 'reveal/plugin/notes/notes.js', async: true }
+      ]
+    })
+    </script>
+  </body>
+</html>
