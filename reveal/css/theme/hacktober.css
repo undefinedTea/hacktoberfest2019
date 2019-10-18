@@ -72,8 +72,8 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #212121;
-  background-color: #212121;
+  background: #152347;
+  background-color: #152347;
 }
 
 .reveal {
@@ -84,14 +84,14 @@ body {
 }
 
 ::selection {
-  color: #9b1e1e;
-  background: #6faaaa;
+  color: #39496f;
+  background: #39496f;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  color: #9b1e1e;
-  background: #6faaaa;
+  color: #39496f;
+  background: #39496f;
   text-shadow: none;
 }
 
@@ -111,7 +111,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 17px 0;
-  color: #398b89;
+  color: #fff923;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   line-height: 1.3;
@@ -305,7 +305,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #e64b37;
+  color: #ff00aa;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
@@ -313,14 +313,14 @@ body {
 }
 
 .reveal a:hover {
-  color: #ed8072;
+  color: #ff99dd;
   text-shadow: none;
   border: none;
 }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #b92a17;
+  background: #b30077;
 }
 
 /*********************************************
@@ -346,7 +346,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #e64b37;
+  border-color: #ff00aa;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -354,7 +354,7 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #e64b37;
+  color: #ff00aa;
 }
 
 /*********************************************
@@ -362,7 +362,7 @@ body {
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #e64b37;
+  color: #ff00aa;
 }
 
 .reveal .progress span {
@@ -376,11 +376,11 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #212121;
+    background-color: #152347;
   }
 }
 .reveal .progress span {
   background: #fff923;
 }
 
-/*# sourceMappingURL=presentation.css.map */
+/*# sourceMappingURL=hacktober.css.map */

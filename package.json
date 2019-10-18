@@ -4,7 +4,7 @@
   "author": "thomas janhonen",
   "scripts": {
     "serve": "node web.js",
-    "build": "sass reveal/css/theme/source/presentation.scss reveal/css/theme/presentation.css"
+    "build": "sass reveal/css/theme/source/presentation.scss:reveal/css/theme/presentation.css reveal/css/theme/source/hacktober.scss:reveal/css/theme/hacktober.css"
   },
   "dependencies": {
     "express": "~4.17.1",

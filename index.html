@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="reveal/css/reveal.css">
-    <link rel="stylesheet" href="reveal/css/theme/presentation.css" id="theme">
+    <link rel="stylesheet" href="reveal/css/theme/hacktober.css" id="theme">
 
     <link rel="stylesheet" href="reveal/lib/css/zenburn.css">
 
@@ -165,6 +165,16 @@ let information:Object = {
           </section>
           <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
             <textarea data-template>
+              ### what to do
+              - contribute code
+              - write documentation
+              - create visual identity
+              - provide translation
+              - teach or provide help on IRC/Slack/Gitter
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
+            <textarea data-template>
               ### contribute
               - [opensource.guide](https://opensource.guide) has great information
             </textarea>
@@ -182,14 +192,25 @@ let information:Object = {
           <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
             <textarea data-template>
               ### how to find an issue
+              - [GitHub/search?q=label%3Aterm+state%3open+no%3Aassignee](https://github.com/search?q=label%3Ahacktoberfest+no%3Aassignee)
+                - [GitHub advanced search](https://github.com/search/advanced)
+              - make your own (i.e. contribute a feature you are missing from a project)
+              - IRC/Slack/Gitter communities
+            </textarea>
+          </section>
+          <section data-markdown data-background="reveal/image/atom-bare.png" data-background-position="bottom">
+            <textarea data-template>
+              ### how to interact with people
+              - read the code of conduct
+              - read the contribution guideline
+              - in general, treat others like you want to be treated (for the most part :S)
             </textarea>
           </section>
           <section data-background="reveal/image/base.png" data-background-position="bottom">
             <h3>anatomy of a Pull Request</h3>
-            <ul>
-              <li>Open Source contributions take place on a fork</li>
-            </ul>
-            <pre><code class="hljs" data-line-numbers>git clone git@project.git
+            <p>Open Source contributions take place on a fork</p>
+
+            <pre><code class="hljs zsh" data-line-numbers>git clone git@project.git
 cd project
 
 git branch feature/moi
@@ -199,7 +220,7 @@ git checkout feature/moi
           </section>
           <section data-background="reveal/image/base.png" data-background-position="bottom">
             <h3>anatomy of a Pull Request</h3>
-            <pre><code class="hljs" data-line-numbers>git add --all
+            <pre><code class="hljs zsh" data-line-numbers>git add --all
 git commit --sign -m 'implement feature
 
 additional description of _why_ this commit is taking place.
@@ -210,39 +231,20 @@ git push --set-upstream origin feature/moi
           </section>
           <section data-background="reveal/image/base.png" data-background-position="bottom">
             <h3>anatomy of a Pull Request</h3>
-            <pre><code class="hljs" data-line-numbers>git remote add upstream git@project.git
+            <pre><code class="hljs zsh" data-line-numbers>git remote add upstream git@project.git
 
 git fetch upstream
 git merge --no-ff upstream/master master
             </code></pre>
-          </section>
-          <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
-            <textarea data-template>
-              ### anatomy of a Pull Request
-              - create the pull request via GitHub
-            </textarea>
+            <p>Create the Pull Request via GitHub</p>
           </section>
           <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
             <textarea data-template>
               ### the community
-              - devlop your own skill (technical and interpersonal)
+              - develop your own skill (technical and interpersonal)
               - people often talk about impact - Open Source arguably has the most impact
             </textarea>
           </section>
-        </section>
-
-        <section class="relax" data-markdown data-background="reveal/image/relax.png" data-background-position="bottom">
-          <textarea data-template>
-            <!-- rip headphone people -->
-            <audio id="forrest" data-autoplay src="reveal/audio/forrest.mp3"></audio><!-- .element: class="audio_" -->
-            <audio data-autoplay src="reveal/audio/water.mp3"></audio><!-- .element: class="audio_" -->
-
-            those who say it can not be done, should not interrupt those doing it.
-            <!-- .element: class="fragment" -->
-
-            Note:
-            inspiration
-          </textarea>
         </section>
 
         <!-- <section data-markdown data-background="reveal/image/atom-bare.png" data-background-position="bottom">
