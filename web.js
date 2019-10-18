@@ -24,3 +24,5 @@ var authentication = function(request, response, continueResponse) {
 
 application.use('/', authentication, express.static(__dirname))
 application.listen(process.env.PORT || 1920)
+
+console.log(`rdy on 127.0.0.1:${process.env.PORT}`)
