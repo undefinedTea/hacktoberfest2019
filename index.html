@@ -88,7 +88,7 @@ let information:Object = {
         </section>
 
         <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
-          <script type="text/template">
+          <textarea data-template>
             # today
             - basic
             - about hacktober fest
@@ -96,17 +96,17 @@ let information:Object = {
 
             Note:
             mention some stuff
-          </script>
+          </textarea>
         </section>
 
         <section>
           <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
-            <script type="text/template">
+            <textarea data-template>
               # basic
               - follow the code of conduct
               - food and drink is available
               - internet connection: tentimes / #pandabear2019
-            </script>
+            </textarea>
           </section>
         </section>
 
@@ -184,14 +184,49 @@ let information:Object = {
               ### how to find an issue
             </textarea>
           </section>
+          <section data-background="reveal/image/base.png" data-background-position="bottom">
+            <h3>anatomy of a Pull Request</h3>
+            <ul>
+              <li>Open Source contributions take place on a fork</li>
+            </ul>
+            <pre><code class="hljs" data-line-numbers>git clone git@project.git
+cd project
+
+git branch feature/moi
+
+git checkout feature/moi
+            </code></pre>
+          </section>
+          <section data-background="reveal/image/base.png" data-background-position="bottom">
+            <h3>anatomy of a Pull Request</h3>
+            <pre><code class="hljs" data-line-numbers>git add --all
+git commit --sign -m 'implement feature
+
+additional description of _why_ this commit is taking place.
+content'
+
+git push --set-upstream origin feature/moi
+            </code></pre>
+          </section>
+          <section data-background="reveal/image/base.png" data-background-position="bottom">
+            <h3>anatomy of a Pull Request</h3>
+            <pre><code class="hljs" data-line-numbers>git remote add upstream git@project.git
+
+git fetch upstream
+git merge --no-ff upstream/master master
+            </code></pre>
+          </section>
           <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
             <textarea data-template>
               ### anatomy of a Pull Request
+              - create the pull request via GitHub
             </textarea>
           </section>
           <section data-markdown data-background="reveal/image/base.png" data-background-position="bottom">
             <textarea data-template>
               ### the community
+              - devlop your own skill (technical and interpersonal)
+              - people often talk about impact - Open Source arguably has the most impact
             </textarea>
           </section>
         </section>
