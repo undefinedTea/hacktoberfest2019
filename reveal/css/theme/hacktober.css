@@ -1,6 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 300, 700);
+@import url(
+  https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,
+  300,
+  700&display=swap
+);
+@import url(
+  https://fonts.googleapis.com/css?family=Source+Code+Pro:400,
+  300,
+  700&display=swap
+);
 .upc {
   text-transform: uppercase !important;
 }
@@ -66,6 +74,10 @@
 }
 .person-container pre {
   align-self: center;
+}
+
+section.content-sections p {
+  margin-bottom: 2rem;
 }
 
 /*********************************************
@@ -265,13 +277,13 @@ body {
   border-bottom: 1px solid;
 }
 
-.reveal table th[align=center],
-.reveal table td[align=center] {
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
   text-align: center;
 }
 
-.reveal table th[align=right],
-.reveal table td[align=right] {
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
   text-align: right;
 }
 
