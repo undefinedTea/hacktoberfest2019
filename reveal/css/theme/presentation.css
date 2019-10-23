@@ -68,6 +68,10 @@
   align-self: center;
 }
 
+section.content-sections p {
+  margin-bottom: 2rem;
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
