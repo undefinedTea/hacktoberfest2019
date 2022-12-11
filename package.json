@@ -7,7 +7,7 @@
     "build": "sass reveal/css/theme/source/presentation.scss:reveal/css/theme/presentation.css reveal/css/theme/source/hacktober.scss:reveal/css/theme/hacktober.css"
   },
   "dependencies": {
-    "express": "~4.17.1",
+    "express": "~4.17.3",
     "basic-auth": "~2.0.1"
   },
   "devDependencies": {
